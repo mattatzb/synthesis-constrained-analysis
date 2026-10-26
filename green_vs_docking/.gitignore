@@ -1,0 +1,34 @@
+# Python and test caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local editor settings
+.vscode/
+
+# Generated outputs and figures
+outputs/
+outputs_old_ae/
+*.png
+
+# Local submission scripts and job logs
+submit*.sh
+slurm-*.out
+
+# Local manuscript reproduction checks and notes
+local_tests/
+REFACTOR_REPORT.md
+
+# Archived experiment data and per-condition outputs distributed through Zenodo
+data/pesticide_*
+9KQ3_outputs/*
+
+# Keep only the three manuscript reference artifacts in Git
+!9KQ3_outputs/green_vs_docking_summary_blocks.pdf
+!9KQ3_outputs/latex_table_summary.csv
+!9KQ3_outputs/resume.csv
